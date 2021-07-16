@@ -1,0 +1,10 @@
+* HOME
+home__social
+www.linkedin.com/in/wojciech-ćwiklik94
+https://github.com/cwiklikwojciech
+
+home__description
+High level experience in web design and development knowledge, producing quality work.
+
+
+
