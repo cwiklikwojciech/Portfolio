@@ -540,6 +540,21 @@ img {
 .skills__mangodb {
 	width: 20%;
 }
+.skills__confluence {
+	width: 60%;
+}
+.skills__jira {
+	width: 50%;
+}
+.skills__blockchain {
+	width: 40%;
+}
+.skills__crypto {
+	width: 50%;
+}
+.skills__bootstrap {
+	width: 60%;
+}
 
 .skills__close .skills__list {
 	height: 0;
