@@ -185,3 +185,18 @@ themeButton.addEventListener('click', () => {
 	localStorage.setItem('selected-theme', getCurrentTheme());
 	localStorage.setItem('selected-icon', getCurrentIcon());
 });
+
+const contactForm = document.querySelector('.contact__form');
+
+let name = document.getElementById('name');
+
+contactForm.addEventListener('submit', (e) => {
+	e.preventDefault();
+
+	console.log('Post test');
+
+	fetch('https://cwiklik-wojciech-mailer.herokuapp.com/test', {
+		method: 'POST',
+		body: 'data'
+	});
+});
