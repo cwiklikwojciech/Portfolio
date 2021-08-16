@@ -740,22 +740,22 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__labet">Name</label>
-                                <input type="text" id="name" class="contact__input">
+                                <input type="text" id="name__email--content" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__labet">E-mail</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" id="mail__email--content" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__labet">Project</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" id="project__email--content" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__labet">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <textarea  id="message__email--content" cols="0" rows="7" class="contact__input"></textarea>
                             </div>
 
                             <!-- <div>
@@ -829,5 +829,19 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
+        <!-- <script>
+            
+            contactForm.addEventListener('submit', (e) => {
+                var x = document.getElementById('xxxddd');
+               
+                var someElement = document.getElementById("message__email--content").value;
+                var someElementToString = someElement.toString();   
+
+                console.log(someElement);
+                console.log(someElementToString);
+            });
+
+        </script> -->
     </body>
 </html>

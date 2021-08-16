@@ -195,8 +195,30 @@ contactForm.addEventListener('submit', (e) => {
 
 	console.log('Post test');
 
-	fetch('https://cwiklik-wojciech-mailer.herokuapp.com/test', {
-		method: 'POST',
-		body: 'data'
+	// const data = 'Wojtek';
+	// const option = {
+	// 	method: 'POST',
+	// 	headers: {
+	// 		'Content-Type': 'application/json'
+	// 	},
+	// 	body: 'test'
+	// };
+
+	// fetch('http://localhost:5000/test');
+
+	fetch('http://localhost:5000/test', {
+		method: 'post',
+		headers: {
+			Accept: 'application/json',
+			'Content-Type': 'application/json'
+		},
+
+		//make sure to serialize your JSON body
+		body: JSON.stringify({
+			name: document.getElementById('name__email--content').value,
+			email: document.getElementById('mail__email--content').value,
+			project: document.getElementById('project__email--content').value,
+			message: document.getElementById('message__email--content').value
+		})
 	});
 });
