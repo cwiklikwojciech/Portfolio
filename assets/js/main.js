@@ -206,7 +206,7 @@ contactForm.addEventListener('submit', (e) => {
 
 	// fetch('http://localhost:5000/test');
 
-	fetch('http://localhost:5000/test', {
+	fetch('https://cwiklik-wojciech-mailer.herokuapp.com/test', {
 		method: 'post',
 		headers: {
 			Accept: 'application/json',
