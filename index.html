@@ -830,18 +830,18 @@
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
 
-        <!-- <script>
+        <script>
             
             contactForm.addEventListener('submit', (e) => {
-                var x = document.getElementById('xxxddd');
+                document.getElementById('name__email--content').value = '';
+                document.getElementById('mail__email--content').value = '';
+                document.getElementById('project__email--content').value = '';
+                document.getElementById('message__email--content').value = '';
+                
+                alert("Dziękuje za kontakt / Thank you for contact ")
                
-                var someElement = document.getElementById("message__email--content").value;
-                var someElementToString = someElement.toString();   
-
-                console.log(someElement);
-                console.log(someElementToString);
             });
 
-        </script> -->
+        </script>
     </body>
 </html>
